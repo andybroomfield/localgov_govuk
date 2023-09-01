@@ -1,0 +1,30 @@
+.govuk-header {
+  border-bottom: none !important;
+}
+
+.govuk-header__container {
+  margin-bottom: 0 !important;
+  border-bottom: none !important;
+}
+
+.gem-c-layout-for-public__blue-bar {
+  background: #1d70b8;
+  height: 10px;
+}
+
+.govuk-header .app-navigation {
+  float: left;
+  padding-left: 20px; 
+}
+.govuk-header .app-navigation .govuk-header__navigation {
+  margin-bottom: 0; 
+}
+
+.govuk-header .app-navigation {
+  display: none; 
+}
+@media (min-width: 48.0625em) {
+  .govuk-header .app-navigation {
+    display: block; 
+  }
+}

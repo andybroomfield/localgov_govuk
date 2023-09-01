@@ -1,0 +1,10 @@
+{
+    "name": "drupal/localgov_govuk",
+    "description": "Localgov Drupal GovUK theme",
+    "type": "drupal-theme",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/govuk_theme": "^1.14"
+    }
+}

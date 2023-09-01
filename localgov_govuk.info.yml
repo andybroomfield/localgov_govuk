@@ -1,0 +1,20 @@
+name: Localgov Gov.UK
+type: theme
+base theme: govuk
+description: Localgov Drupal Gov.UK theme
+package: Localgov
+core_version_requirement: ^9 || ^10
+libraries:
+  - localgov_govuk/global
+regions:
+  cookies: 'Cookies'
+  header: 'Header'
+  navigation: 'Navigation'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  sidebar_first: 'First sidebar'
+  footer: 'Footer'
