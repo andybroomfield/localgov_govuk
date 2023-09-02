@@ -1,0 +1,12 @@
+{#
+/**
+ * @file
+ * Template for topic list builder paragraphs topic list links field.
+#}
+<div{{ attributes.addClass('gem-c-cards') }}>
+  <div class="gem-c-cards__list">
+    {% for item in items %}
+      {{ item.content }}
+    {% endfor %}
+  </div>
+</div>
